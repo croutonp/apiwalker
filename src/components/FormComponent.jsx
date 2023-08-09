@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const Form = () => {
   
     const [formData, setFormData] = useState({
-      type: 'planets',
+      type: 'people',
       idNum: 1,
     })
 

@@ -9,11 +9,13 @@ import Home from './views/Home';
 import People from './components/PeopleComponent';
 import Planets from './components/PlanetsComponent';
 
+
 function App() {
   return (
     
     <div>
       <Form></Form>
+
       <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/people/:id' element={<People/>}></Route>
